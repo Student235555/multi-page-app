@@ -1,10 +1,31 @@
+import React from 'react';
 import '../styles/App.css';
+import {BrowserRouter as Router} from 'react-router-dom';
+import Header from './Header';
+import Navigation from './Navigation';
+import Page from './Page';
+import Footer from './Footer';
 
 function App() {
   return (
-    <div className="App">
-    
-    </div>
+    <Router>
+      <div className="App">
+        <header>
+          {<Header/>}
+        </header>
+        <main>
+          <aside>
+            {<Navigation/>}
+          </aside>
+          <section className='page'>
+            {<Page/>}
+          </section>
+        </main>
+        <footer>
+          {<Footer/>}
+        </footer>
+      </div>
+    </Router>
   );
 }
 
