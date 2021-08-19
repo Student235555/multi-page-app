@@ -1,0 +1,18 @@
+article{
+    margin-top: 35px;
+}
+
+.h3Art{
+    margin-bottom: 3px;
+    text-transform: uppercase;
+}
+
+.spanArt{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.pArt{
+    font-size: 15px;
+}
