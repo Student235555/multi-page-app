@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import '../styles/ContactPage.css';
+import {Prompt} from 'react-router-dom';
 
 const ContactPage = () => {
 
@@ -21,6 +22,10 @@ const ContactPage = () => {
                 ></textarea>
                 <button>Wyślij</button>
             </form>
+            <Prompt
+                when={messageContent}
+                message='Napisana wiadomość nie została wysłana. Czy na pewno chcesz opuścić podstronę?'
+            />
         </div>
      );
 }

@@ -8,14 +8,17 @@
 
 .contact button{
     display: block;
-    margin: 0 20% 0 auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    /* margin: 0 20% 0 auto; */
     border: 2px solid black;
     background-color: #fff;
     padding: 10px 20px;
     font-size: 20px;
+    text-transform: uppercase;
     cursor: pointer;
     transition: 0.2s;
-
 }
 
 .contact button:hover{
