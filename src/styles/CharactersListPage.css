@@ -1,0 +1,22 @@
+.characters h2{
+    margin-bottom: 20px;
+}
+
+.characters ul{
+    list-style: square;
+    padding-left: 30px;
+}
+
+.characters li{
+    margin-bottom: 20px;
+}
+
+.characters a{
+    text-decoration: none;
+    color: #333;
+}
+
+.characters a:hover{
+    text-decoration: underline;
+    color: #000;
+}
