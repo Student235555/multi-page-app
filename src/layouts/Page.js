@@ -13,6 +13,7 @@ const Page = () => {
             <Switch>
                 <Route path='/' exact component={HomePage}/>
                 <Route path='/characters' component={CharactersListPage}/>
+                <Route path='/character/:id' component={CharactersPage}/>
                 <Route path='/events' component={EventsPage}/>
                 <Route path='/contact' component={ContactPage}/>
                 <Route component={ErrorPage}/>
