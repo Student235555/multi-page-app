@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/CharactersListPage.css';
 
-const characters = ['Odyseusz', 'Dedal', 'Kirke'];
+const characters = ['Dedal', 'Kirke', 'Odyseusz', 'Telegonos', 'Telemach',];
 
 const CharactersListPage = () => {
 
