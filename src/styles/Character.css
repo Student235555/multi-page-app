@@ -1,0 +1,11 @@
+.character h1{
+    margin: 20px auto;
+}
+
+.character p{
+    margin: 20px auto;
+}
+
+.character span{
+    font-style: italic;
+}
