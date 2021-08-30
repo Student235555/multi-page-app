@@ -1,9 +1,9 @@
 import React from 'react';
 
-const EventsPage = () => {
+const GodsPage = () => {
     return ( 
         <div>Wydarzenia</div>
      );
 }
  
-export default EventsPage;
+export default GodsPage;
