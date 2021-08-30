@@ -2,7 +2,7 @@ import React from 'react';
 
 const GodsPage = () => {
     return ( 
-        <div>Wydarzenia</div>
+        <div>Bogowie</div>
      );
 }
  

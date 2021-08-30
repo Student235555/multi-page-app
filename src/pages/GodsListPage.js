@@ -1,8 +1,44 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import '../styles/GodsListPage.css';
+
+const olympGods = ['Apollo','Artemida', 'Atena', 'Hermes', 'Zeus'];
+const titanGods = ['Ajets', 'Helios', 'Pazyfae', 'Prometeusz', 'Selene'];
 
 const GodsListPage = () => {
+
+    const olympList = olympGods.map(olymp => (
+        <li key={olymp}>
+            <Link to={`/god/${olymp}`}>{olymp}</Link> 
+        </li>
+    ))
+
+    const titanList = titanGods.map(titan => (
+        <li key={titan}>
+            <Link to={`/god/${titan}`}>{titan}</Link> 
+        </li>
+    ))
+
     return ( 
-        <div>Bogowie</div>
+        <div className='allGods'>
+            <div className='olympGods'>
+                <h2>Bogowie olimpijscy</h2>
+                <div>
+                    <ul>
+                        {olympList}
+                    </ul>
+                </div>
+            </div>
+
+            <div className='titanGods'>
+                <h2>Bogowie z pokolenia tytanów</h2>
+                <div>
+                    <ul>
+                        {titanList}
+                    </ul>
+                </div>
+            </div>
+        </div>
      );
 }
  

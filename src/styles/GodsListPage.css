@@ -1,0 +1,20 @@
+.allGods div{
+    display: flex;
+    flex-direction: row;
+}
+
+div.olympGods{
+    height: 100%;
+    width: 50%;
+    flex-grow: 0;
+    display: inline-block;
+    background-color: red;
+}
+
+div.titanGods{
+    height: 100%;
+    width: 50%;
+    flex-grow: 1;
+    display: inline-block;
+    background-color:green;
+}
