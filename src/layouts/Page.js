@@ -4,6 +4,7 @@ import HomePage from '../pages/HomePage';
 import CharactersPage from '../pages/CharactersPage';
 import CharactersListPage from '../pages/CharactersListPage';
 import GodsPage from '../pages/GodsPage';
+import GodsListPage from '../pages/GodsListPage';
 import ContactPage from '../pages/ContactPage';
 import ErrorPage from '../pages/ErrorPage';
 
@@ -14,7 +15,8 @@ const Page = () => {
                 <Route path='/' exact component={HomePage}/>
                 <Route path='/characters' component={CharactersListPage}/>
                 <Route path='/character/:id' component={CharactersPage}/>
-                <Route path='/gods' component={GodsPage}/>
+                <Route path='/gods' component={GodsListPage}/>
+                <Route path='/god/:id' component={GodsPage}/>
                 <Route path='/contact' component={ContactPage}/>
                 <Route component={ErrorPage}/>
             </Switch>

@@ -5,7 +5,7 @@ import '../styles/Navigation.css';
 const list = [
     {name: "start", path: "/", exact: true},
     {name: "postacie", path: "/characters"},
-    {name: "wydarzenia", path: "/events"},
+    {name: "bogowie", path: "/gods"},
     {name: "kontakt", path: "/contact"},
 ];
 
