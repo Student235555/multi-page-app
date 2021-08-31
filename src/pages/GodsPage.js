@@ -1,8 +1,14 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import God from '../components/God'
 
-const GodsPage = () => {
+const GodsPage = ({match}) => {
     return ( 
-        <div>Bogowie</div>
+        <>
+        <div>Strona boga</div>
+        <God id={match.params.id}/>
+        <Link to="/gods">Powrót do listy bogów</Link>
+    </>
      );
 }
  

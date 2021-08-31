@@ -3,7 +3,7 @@ import '../styles/Character.css';
 
 const Character = (props) => {
 
-    const chooseDesc = () => {
+    const chooseCharDesc = () => {
         switch(props.id) {
 
         case 'Odyseusz':
@@ -29,7 +29,7 @@ const Character = (props) => {
     return ( 
         <article className="character">
             <h1>{props.id}</h1>
-            {chooseDesc()}
+            {chooseCharDesc()}
         </article>
      );
 }
