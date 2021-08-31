@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import '../styles/GodsListPage.css';
 
 const olympGods = ['Apollo','Artemida', 'Atena', 'Hermes', 'Zeus'];
-const titanGods = ['Ajets', 'Helios', 'Pazyfae', 'Prometeusz', 'Selene'];
+const titanGods = ['Helios', 'Kirke', 'Pazyfae', 'Prometeusz', 'Selene'];
 
 const GodsListPage = () => {
 

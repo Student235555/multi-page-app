@@ -8,7 +8,6 @@ div.olympGods{
     width: 50%;
     flex-grow: 0;
     display: inline-block;
-    background-color: red;
 }
 
 div.titanGods{
@@ -16,5 +15,27 @@ div.titanGods{
     width: 50%;
     flex-grow: 1;
     display: inline-block;
-    background-color:green;
+}
+
+.allGods h2{
+    margin-bottom: 20px;
+}
+
+.allGods ul{
+    list-style: square;
+    padding-left: 30px;
+}
+
+.allGods li{
+    margin-bottom: 20px;
+}
+
+.allGods a{
+    text-decoration: none;
+    color: #333;
+}
+
+.allGods a:hover{
+    text-decoration: underline;
+    color: #000;
 }
