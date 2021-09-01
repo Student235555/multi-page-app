@@ -6,8 +6,8 @@ const Article = ({title, source, text}) => {
     return ( 
         <article>
             <h3 className='h3Art'>{title}</h3>
-            <span className='spanArt'>{source}</span>
             <p className='pArt'>{text}</p>
+            <a href={source}  target="blank"><span className='spanArt'>{source}</span></a>
         </article>
      );
 }
