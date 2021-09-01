@@ -7,15 +7,20 @@ const God = (props) => {
         switch(props.id) {
 
         // Bogowie olimpijscy
+        case 'Afrodyta':
+        return <p>Bogini miłości i urody, matka Eneasza, orędowniczka Trojan, szczególnie faworyzowała Parysa. Najbardziej urodziwa z bogiń antycznych mitów. Była żoną Hefajstosa, a jej kochankiem był Adonis.</p>;
 
         case 'Apollo':
-        return <p>Bóg światła, muzyki, przepowiedni i medycyny. Syn Zeusa, brat bliźniak Artemidy i orędownik Trojan podczas wojny z Grekami.</p>;
+        return <p>Bóg światła, muzyki, przepowiedni i medycyny. Syn Zeusa, brat bliźniak Artemidy i orędownik Trojan podczas wojny z Grekami. W księdze I <span>Iliady</span> zesłał śmiertelną zarazę na wojsko greckie, przyczynił się też istotnie do śmierci Achillesa i Patroklosa.</p>;
 
         case 'Artemida':
-        return <p>Bogini łowów, córka Zeusa, siostra Apolla. Według <span>Odysei</span> morderczyni księżniczki Ariadny.</p>;
+        return <p>Bogini łowów, księżyca i dziewictwa, córka Zeusa, siostra Apolla. Według <span>Odysei</span> morderczyni księżniczki Ariadny. Oburzona rozlewem krwi, do jakiego prowadziła wojna trojańska, bezwietrzną pogodą unieruchomiła okręty greckie w Aulidzie. Ofiara Ifigenii przejednała ją i pomyślne wiatry powróciły.</p>;
 
         case 'Atena':
         return <p>Potężna bogini mądrości, tkactwa i sztuk wojennych. Podczas wojny trojańskiej zwolenniczka Greków, szczególną opiekę roztoczyła nad sprytnym Odyseuszem. Pojawia się w <span>Iliadzie</span> i <span>Odysei</span>. Podobno ulubiona córka Zeusa; urodziła się, wyskakując z jego głowy w pełni ukształtowana i w zbroi.</p>;
+
+        case 'Hera':
+        return <p>Królowa bogów, siostra i żona Zeusa. Tak jak Atena sprzyjała Grekom, nienawidziła zaś Trojan. W <span>Eneidzie</span> Wergiliusza jest główną antagonistką, która po upadku Troi bezustannie nęka bohatera trojańskiego Eneasza.</p>;
 
         case 'Hermes':
         return <p>Syn Zeusa i nimfy Mai, posłaniec bogów i bóg podróży i oszustw, handlu i granic. Przewodnik dusz zmarłych od świata podziemi. W pewnych opowieściach przodek Odyseusza; w <span>Odysei</span> Hermes doradza mu, jak przeciwdziałać czarom Kirke.</p>;
@@ -24,6 +29,12 @@ const God = (props) => {
         return <p>Król bogów i ludzi, władca całego świata rządzący z góry Olimp. Rozpoczął wojnę przeciwką tytanom, by zemścić się na ojcu, Kronosie, o obalić go. Ojcie wielu bogów i śmiertelników, w tym Ateny, Apolla, Dionizosa, Heraklesa, Heleny i Minosa.</p>;
 
         // Bogowie z pokolenia tytanów
+
+        case 'Ajetes':
+        return <p>Brat Kirke, czarownik, król Kolchidy, krainy na wschodnim brzegu Morza Czarnego, ojciec śmiertelnej czarownicy Medei i strażnik złotego runa, dopóki z pomocą Medei nie ukradli go Jazon i argonauci.</p>;
+
+        case 'Okeanos':
+        return <p>W utworach Homera bóg wielkiej rzeki o tej samej nazwie, która w wyobraźni starożytnych okrążała świat. W późniejszych czasach kojarzony z morzem i wodami słonymi. Dziadek Kirke ze strony matki, ojciec licznych nimf i bogów.</p>;
 
         case 'Prometeusz':
         return <p>Bóg, który wbrew woli Zeusa pomógł śmiertelnikom, dając im ogień i, według niektórych powieści, inne umiejętności związane z cywilizacją. Zeus ukarał go, przykuwając do skały w górach Kaukazu, gdzie codziennie przylatywał orzeł i wyszarpywał mu wątrobę, która przez noc odrastała.</p>;
