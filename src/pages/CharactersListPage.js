@@ -42,6 +42,7 @@ const CharactersListPage = () => {
                     {list3}
                 </ul>
             </div>
+            <p className='infoP'>Wszelkie informacje o bogach i postaciach zaczerpnięta z książek autorstwa Madeline Miller.</p>
         </div>
      );
 }
