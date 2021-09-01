@@ -2,8 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/GodsListPage.css';
 
-const olympGods = ['Apollo','Artemida', 'Atena', 'Hermes', 'Zeus'];
-const titanGods = ['Helios', 'Kirke', 'Pazyfae', 'Prometeusz', 'Selene'];
+const olympGods = ['Afrodyta', 'Ares','Artemida', 'Atena', 'Hades', 'Hermes', 'Zeus'];
+const titanGods = ['Ajetes', 'Helios', 'Kirke', 'Okeanos', 'Pazyfae', 'Prometeusz', 'Selene'];
 
 const GodsListPage = () => {
 
