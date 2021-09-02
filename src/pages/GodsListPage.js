@@ -38,7 +38,7 @@ const GodsListPage = () => {
                     </ul>
                 </div>
             </div>
-            <p className='infoP'>Wszelkie informacje o bogach i postaciach zaczerpnięta z książek autorstwa Madeline Miller.</p>
+            <p className='infoP'>Wszelkie informacje o bogach i postaciach zaczerpnięte z książek autorstwa Madeline Miller.</p>
         </div>
      );
 }
