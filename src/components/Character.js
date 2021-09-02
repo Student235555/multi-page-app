@@ -16,7 +16,7 @@ const Character = (props) => {
         return <p>Władca Salaminy i potomek Zeusa, znany ze swej ogromnej postury i siły. Był największym po Achillesie greckim wojownikiem i godnie dotrzymywał pola Trojanom, podczas gdy Achilles wstrzymywał się od walki. Kiedy Agamemnon po śmierci Achillesa uhonorował Odyseusza jako najdzielniejszego z Greków, oszałały z żalu i złości Ajas odebrał sobie życie.</p>;
 
         case 'Andromacha':
-        return <p>Księżniczka Cylicji położonej koło Troi, została wierną i oddaną żoną Hektora. Nienawidziła Achillesa, z którego ręki zginęli w boju wszyscy jej krewni. Podczas plądrowania Troi Pyrros (znany też jako Neoptolemus, syn Achillesa) pojmał ją jako brankę i zabrał do Grecji. Po śmierci Pyrrosa ona i Helenos założyli miasto Butrint, które miało przypominać utraconą Troję.</p>;
+        return <p>Księżniczka Cylicji położonej koło Troi, została wierną i oddaną żoną Hektora. Nienawidziła Achillesa, z którego ręki zginęli w boju wszyscy jej krewni. Podczas plądrowania Troi Pyrros (znany też jako Neoptolemos, syn Achillesa) pojmał ją jako brankę i zabrał do Grecji. Po śmierci Pyrrosa ona i Helenos założyli miasto Butrint, które miało przypominać utraconą Troję.</p>;
 
         case 'Dedal':
         return <p>Mistrz rzemiosł, znany wynalazca i artysta. Stworzył krąg taneczny Ariadny i wielki labirynt, więzienie Minotaura. Więziony na Krecie razem z synem, Ikarem, wymyślił plan ucieczki: skonstruował dwie pary skrzydeł z piór połączonych woskiem. Uciekł z synem, lecz Ikar podfrunął zbyt blisko słońca i wosk się roztopił. Chłopiec spadł do morza i utonął.</p>;
