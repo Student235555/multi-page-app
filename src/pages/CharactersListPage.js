@@ -2,11 +2,11 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/CharactersListPage.css';
 
-const charactersList1 = ['Achilles', 'Agamemnon', 'Ajas', 'Bryzeida', 'Dedal',];
+const charactersList1 = ['Achilles', 'Agamemnon', 'Ajas', 'Andromacha', 'Dedal', 'Deidameja', 'Diomedes',];
 
-const charactersList2 = ['Diomedes',  'Hektor', 'Helena', 'Jazon', 'Menelaos',];
+const charactersList2 = ['Eneasz', 'Hektor', 'Helena', 'Herakles', 'Jazon', 'Menelaos', 'Neoptolemos'];
 
-const charactersList3 = ['Odyseusz', 'Parys', 'Patroklos', 'Telegonos', 'Telemach',];
+const charactersList3 = ['Odyseusz', 'Orestes', 'Parys', 'Patroklos', 'Priam', 'Telegonos', 'Telemach',];
 
 const CharactersListPage = () => {
 

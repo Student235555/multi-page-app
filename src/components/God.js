@@ -23,7 +23,7 @@ const God = (props) => {
         return <p>Królowa bogów, siostra i żona Zeusa. Tak jak Atena sprzyjała Grekom, nienawidziła zaś Trojan. W <span>Eneidzie</span> Wergiliusza jest główną antagonistką, która po upadku Troi bezustannie nęka bohatera trojańskiego Eneasza.</p>;
 
         case 'Hermes':
-        return <p>Syn Zeusa i nimfy Mai, posłaniec bogów i bóg podróży i oszustw, handlu i granic. Przewodnik dusz zmarłych od świata podziemi. W pewnych opowieściach przodek Odyseusza; w <span>Odysei</span> Hermes doradza mu, jak przeciwdziałać czarom Kirke.</p>;
+        return <p>Syn Zeusa i nimfy Mai, posłaniec bogów i bóg podróży i oszustw, handlu i granic. Przewodnik dusz zmarłych do świata podziemi. W pewnych opowieściach przodek Odyseusza; w <span>Odysei</span> Hermes doradza mu, jak przeciwdziałać czarom Kirke.</p>;
 
         case 'Zeus':
         return <p>Król bogów i ludzi, władca całego świata rządzący z góry Olimp. Rozpoczął wojnę przeciwką tytanom, by zemścić się na ojcu, Kronosie, o obalić go. Ojcie wielu bogów i śmiertelników, w tym Ateny, Apolla, Dionizosa, Heraklesa, Heleny i Minosa.</p>;
