@@ -9,4 +9,9 @@
     text-transform: none;
 }
 
+@media(orientation: portrait) and (max-width: 415px) {
 
+    .footer p{
+        font-size: 8px;
+    }
+}

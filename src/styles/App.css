@@ -31,3 +31,12 @@ footer{
     text-align: center;
     text-transform: uppercase;
 }
+
+
+@media(orientation: portrait) and (max-width: 415px) {
+
+    aside{
+        min-width: 100px;
+        width: 120px;
+    }
+}

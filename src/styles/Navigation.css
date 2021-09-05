@@ -44,3 +44,15 @@ nav.main{
     border-left-color: blue;
     transform: translateX(0);
 }
+
+
+@media(orientation: portrait) and (max-width: 415px) {
+
+    nav ul{
+        font-size: 13px;
+    }
+
+    .main a.active{
+        border-left: 5px gray solid;
+    }
+}

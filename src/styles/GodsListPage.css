@@ -39,3 +39,29 @@ div.titanGods{
     text-decoration: underline;
     color: #000;
 }
+
+@media(orientation: portrait) and (max-width: 415px) {
+
+    .allGods div{
+        flex-direction: column;
+    }
+
+    div.olympGods{
+       font-size: 12px;
+    }
+    
+    div.titanGods{
+       font-size: 12px;
+    }
+
+    div.olympGods h2{
+        font-size: 13px;
+        margin-bottom: 25px;
+     }
+     
+     div.titanGods h2{
+        font-size: 13px;
+        margin-bottom: 10px;
+        margin-left: 15px;
+     }
+}

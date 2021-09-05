@@ -33,3 +33,27 @@
 .infoP{
     font-size: 10px;
 }
+
+
+@media(orientation: portrait) and (max-width: 415px) {
+
+    .characters{
+        width: 200px;
+    }
+
+    .characters h2{
+        font-size: 17px;
+    }
+
+    .characters li{
+        font-size: 15px;
+    }
+
+    .charLists{
+        flex-direction: column;
+    }
+
+    .infoP{
+        font-size: 6px;
+    }
+}

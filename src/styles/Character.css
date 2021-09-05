@@ -9,3 +9,14 @@
 .character span{
     font-style: italic;
 }
+
+@media(orientation: portrait) and (max-width: 415px) {
+    .character p{
+        font-size: 12px;
+    }
+
+    .character a{
+        font-size: 12px;
+    }
+   
+}

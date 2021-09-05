@@ -9,3 +9,10 @@
 .god span{
     font-style: italic;
 }
+
+@media(orientation: portrait) and (max-width: 415px) {
+    .god p{
+       font-size: 12px;
+    }
+   
+}
