@@ -69,3 +69,19 @@
         margin-right: 90px;
     }
 }
+
+@media(orientation: landscape) and (max-width: 812px) {
+
+    .characters h2{
+        font-size: 19px;
+    }
+
+    .characters li a{
+        font-size: 15px;
+    }
+
+    .charList{
+        margin-right: 50px;
+    }
+
+}

@@ -38,3 +38,26 @@ article{
         font-size: 12px;
     }
 }
+
+@media(orientation: landscape) and (max-width: 812px) {
+
+    .page h1{
+        font-size: 15px;
+    }
+
+    .page .h3Art{
+        font-size: 12px;
+    }
+
+    .page .pArt{
+        font-size: 10px;
+    }
+
+    .page .spanArt{
+        font-size: 8px;
+    }
+
+    .page a{
+        font-size: 12px;
+    }
+}

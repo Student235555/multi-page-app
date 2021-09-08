@@ -18,5 +18,15 @@
     .character a{
         font-size: 12px;
     }
-   
+}
+
+@media(orientation: landscape) and (max-width: 812px) {
+    .character p{
+        font-size: 12px;
+    }
+
+    .character a{
+        font-size: 12px;
+        margin-top: 10px;
+    }
 }

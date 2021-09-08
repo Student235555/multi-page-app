@@ -71,3 +71,24 @@ div.titanGods{
         margin-bottom: 40px;
      }
 }
+
+@media(orientation: landscape) and (max-width: 812px) {
+
+    div.olympGods h2{
+        font-size: 18px;
+        margin-bottom: 20px;
+     }
+     
+     div.titanGods h2{
+        font-size: 18px;
+     }
+
+     div.olympGods li a{
+        font-size: 16px;
+       
+     }
+     
+     div.titanGods li a{
+        font-size: 16px;
+     }
+}

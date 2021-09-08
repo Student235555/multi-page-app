@@ -14,5 +14,10 @@
     .god p{
        font-size: 12px;
     }
-   
+}
+
+@media(orientation: landscape) and (max-width: 812px) {
+    .god p{
+       font-size: 12px;
+    }
 }

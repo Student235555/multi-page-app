@@ -56,3 +56,14 @@ nav.main{
         border-left: 5px gray solid;
     }
 }
+
+@media(orientation: landscape) and (max-width: 812px) {
+
+    nav ul{
+        font-size: 15px;
+    }
+
+    .main a.active{
+        border-left: 5px gray solid;
+    }
+}
