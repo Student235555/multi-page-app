@@ -32,12 +32,10 @@ footer{
     text-transform: uppercase;
 }
 
+@media(orientation: portrait) and (max-width: 768px) {
 
-@media(orientation: portrait) and (max-width: 415px) {
-
-    aside{
-        min-width: 100px;
-        width: 120px;
+    header{
+        flex-basis: 20vh;
     }
 }
 
@@ -47,7 +45,26 @@ footer{
         min-width: 100px;
         width: 120px;
     }
+
+    header{
+        flex-basis: 18vh;
+    }
 }
+
+
+
+@media(orientation: portrait) and (max-width: 415px) {
+
+    aside{
+        min-width: 100px;
+        width: 120px;
+    }
+
+    header{
+        flex-basis: 15vh;
+    }
+}
+
 
 @media(orientation: landscape) and (max-width: 812px) {
 
@@ -55,4 +72,9 @@ footer{
         min-width: 100px;
         width: 120px;
     }
+
+    header{
+        flex-basis: 20vh;
+    }
 }
+
