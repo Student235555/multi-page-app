@@ -57,6 +57,17 @@ nav.main{
     }
 }
 
+@media(orientation: portrait) and (max-width: 600px) {
+
+    nav ul{
+        font-size: 13px;
+    }
+
+    .main a.active{
+        border-left: 5px gray solid;
+    }
+}
+
 @media(orientation: landscape) and (max-width: 812px) {
 
     nav ul{

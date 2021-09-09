@@ -41,6 +41,14 @@ footer{
     }
 }
 
+@media(orientation: portrait) and (max-width: 600px) {
+
+    aside{
+        min-width: 100px;
+        width: 120px;
+    }
+}
+
 @media(orientation: landscape) and (max-width: 812px) {
 
     aside{

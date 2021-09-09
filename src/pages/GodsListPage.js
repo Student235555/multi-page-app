@@ -23,20 +23,16 @@ const GodsListPage = () => {
         <div className='allGods'>
             <div className='olympGods'>
                 <h2>Bogowie olimpijscy</h2>
-                <div>
                     <ul>
                         {olympList}
                     </ul>
-                </div>
             </div>
 
             <div className='titanGods'>
                 <h2>Bogowie z pokolenia tytanów</h2>
-                <div>
                     <ul>
                         {titanList}
                     </ul>
-                </div>
             </div>
             <p className='infoP'>Wszelkie informacje o bogach i postaciach zaczerpnięte z książek autorstwa Madeline Miller.</p>
         </div>
